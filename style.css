@@ -267,12 +267,12 @@ header .fa-bars {
 
 .products .box-container .box .discount {
     position: absolute;
-    top: 1rem;
-    left: 1rem;
-    padding: .7rem 1rem;
+   margin-top: 1rem;
+   margin-left: 2rem;
     font-size: 2rem;
     color: var(--pink);
     background: rgba(255, 51, 153, 0.5);
+    padding: .5rem;
 }
 
 .products .box-container .box .image {
@@ -283,7 +283,8 @@ header .fa-bars {
 }
 
 .products .box-container .box .image img {
-    height: 25rem;
+    height: 24rem;
+    margin-top: 3rem;
 }
 
 .products .box-container .box:hover .image img {
